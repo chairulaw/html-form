@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select</title>
+</head>
+<body>
+    <form action="">
+        <label for="Hobby">Hobby :</label>
+        <select name="hobby" id="hobby">
+            <!--tambahkan syntax multiple size untuk menampilkan beberapa opsi-->
+            <option value="coding">Coding</option>
+            <option value="reading">Reading</option>
+            <option value="gaming">Gaming</option>
+        </select>
+
+        <select name="group" id="group">
+            <optgroup label="coding">
+                <option value="java">Java</option>
+                <option value="php">PHP</option>
+                <option value="python">Python</option>
+            </optgroup>
+            <optgroup label="gaming">
+                <option value="FPP">FPP</option>
+                <option value="TPP">TPP</option>
+                <option value="RPG">RPG</option>
+            </optgroup>
+            <optgroup label="olahraga">
+                <option value="joging">Jogging</option>
+                <option value="futsal">Futsal</option>
+                <option value="volley">Volley</option>
+            </optgroup>
+            <select name="download" id="download">
+                <optgroup label="speedtest">
+                
+                </optgroup>
+            </select>
+        </select>
+        <input type="submit" value="Simpan">
+    </form>
+</body>
+</html>
